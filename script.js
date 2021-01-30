@@ -2,6 +2,8 @@ function start() {
    // $("body").css("background-color", "green");
 }
 
+$("#menu a:first").click();
+
 $(window).on("load", start);
 
 function loadpage(e){
